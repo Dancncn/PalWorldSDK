@@ -14,8 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AKAUDIO_AkAudioEvent_generated_h
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_SPARSE_DATA
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_SPARSE_DATA
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetMaximumDuration); \
 	DECLARE_FUNCTION(execGetMinimumDuration); \
@@ -23,7 +23,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execGetMaxAttenuationRadius);
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetMaximumDuration); \
 	DECLARE_FUNCTION(execGetMinimumDuration); \
@@ -31,8 +31,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execGetMaxAttenuationRadius);
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ACCESSORS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ACCESSORS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkAudioEvent(); \
 	friend struct Z_Construct_UClass_UAkAudioEvent_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(UAkAudioEvent)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS \
 private: \
 	static void StaticRegisterNativesUAkAudioEvent(); \
 	friend struct Z_Construct_UClass_UAkAudioEvent_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UAkAudioEvent)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_STANDARD_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkAudioEvent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAkAudioEvent) \
@@ -64,7 +64,7 @@ public: \
 	NO_API virtual ~UAkAudioEvent();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ENHANCED_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkAudioEvent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -78,27 +78,27 @@ public: \
 	NO_API virtual ~UAkAudioEvent();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_32_PROLOG
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_GENERATED_BODY_LEGACY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_32_PROLOG
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_STANDARD_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ENHANCED_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_INCLASS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h_35_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -106,7 +106,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AKAUDIO_API UClass* StaticClass<class UAkAudioEvent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h
+#define CURRENT_FILE_ID FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioEvent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

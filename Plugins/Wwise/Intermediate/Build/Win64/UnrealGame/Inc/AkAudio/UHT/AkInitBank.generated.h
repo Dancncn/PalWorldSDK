@@ -14,18 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AKAUDIO_AkInitBank_generated_h
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_30_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_30_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkPluginInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkPluginInfo>();
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_SPARSE_DATA
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ACCESSORS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_SPARSE_DATA
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ACCESSORS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkInitBankAssetData(); \
 	friend struct Z_Construct_UClass_UAkInitBankAssetData_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UAkInitBankAssetData)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS \
 private: \
 	static void StaticRegisterNativesUAkInitBankAssetData(); \
 	friend struct Z_Construct_UClass_UAkInitBankAssetData_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(UAkInitBankAssetData)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_STANDARD_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkInitBankAssetData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAkInitBankAssetData) \
@@ -57,7 +57,7 @@ public: \
 	NO_API virtual ~UAkInitBankAssetData();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ENHANCED_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkInitBankAssetData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -71,38 +71,38 @@ public: \
 	NO_API virtual ~UAkInitBankAssetData();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_52_PROLOG
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_GENERATED_BODY_LEGACY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_52_PROLOG
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_STANDARD_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ENHANCED_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_INCLASS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_55_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkInitBankAssetData>();
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_SPARSE_DATA
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ACCESSORS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_SPARSE_DATA
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ACCESSORS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkInitBank(); \
 	friend struct Z_Construct_UClass_UAkInitBank_Statics; \
@@ -111,7 +111,7 @@ public: \
 	DECLARE_SERIALIZER(UAkInitBank)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS \
 private: \
 	static void StaticRegisterNativesUAkInitBank(); \
 	friend struct Z_Construct_UClass_UAkInitBank_Statics; \
@@ -120,7 +120,7 @@ public: \
 	DECLARE_SERIALIZER(UAkInitBank)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_STANDARD_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkInitBank(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAkInitBank) \
@@ -134,7 +134,7 @@ public: \
 	NO_API virtual ~UAkInitBank();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ENHANCED_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAkInitBank(UAkInitBank&&); \
@@ -146,27 +146,27 @@ public: \
 	NO_API virtual ~UAkInitBank();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_62_PROLOG
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_GENERATED_BODY_LEGACY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_62_PROLOG
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_STANDARD_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ENHANCED_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_INCLASS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_65_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -174,7 +174,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AKAUDIO_API UClass* StaticClass<class UAkInitBank>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h
+#define CURRENT_FILE_ID FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

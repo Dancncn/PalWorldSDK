@@ -15,7 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AKAUDIO_WwiseItemType_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_WwiseItemType_h
+#define CURRENT_FILE_ID FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_WwiseItemType_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -16,8 +16,8 @@ enum class AkAcousticPortalState : uint8;
 #endif
 #define AKAUDIO_AkAcousticPortal_generated_h
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_SPARSE_DATA
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_SPARSE_DATA
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execPortalPlacementValid); \
 	DECLARE_FUNCTION(execGetPrimitiveParent); \
@@ -26,7 +26,7 @@ enum class AkAcousticPortalState : uint8;
 	DECLARE_FUNCTION(execOpenPortal);
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execPortalPlacementValid); \
 	DECLARE_FUNCTION(execGetPrimitiveParent); \
@@ -35,8 +35,8 @@ enum class AkAcousticPortalState : uint8;
 	DECLARE_FUNCTION(execOpenPortal);
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ACCESSORS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ACCESSORS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkPortalComponent(); \
 	friend struct Z_Construct_UClass_UAkPortalComponent_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UAkPortalComponent)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS \
 private: \
 	static void StaticRegisterNativesUAkPortalComponent(); \
 	friend struct Z_Construct_UClass_UAkPortalComponent_Statics; \
@@ -54,7 +54,7 @@ public: \
 	DECLARE_SERIALIZER(UAkPortalComponent)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_STANDARD_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkPortalComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAkPortalComponent) \
@@ -68,7 +68,7 @@ public: \
 	NO_API virtual ~UAkPortalComponent();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ENHANCED_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkPortalComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -82,74 +82,74 @@ public: \
 	NO_API virtual ~UAkPortalComponent();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_29_PROLOG
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_GENERATED_BODY_LEGACY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_29_PROLOG
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_STANDARD_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ENHANCED_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_INCLASS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_32_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AkPortalComponent."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkPortalComponent>();
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_SPARSE_DATA
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_SPARSE_DATA
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetCurrentState); \
 	DECLARE_FUNCTION(execClosePortal); \
 	DECLARE_FUNCTION(execOpenPortal);
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetCurrentState); \
 	DECLARE_FUNCTION(execClosePortal); \
 	DECLARE_FUNCTION(execOpenPortal);
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ACCESSORS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ARCHIVESERIALIZER \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ACCESSORS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ARCHIVESERIALIZER \
 	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(AAkAcousticPortal, NO_API)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAkAcousticPortal(); \
 	friend struct Z_Construct_UClass_AAkAcousticPortal_Statics; \
 public: \
 	DECLARE_CLASS(AAkAcousticPortal, AVolume, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AkAudio"), NO_API) \
 	DECLARE_SERIALIZER(AAkAcousticPortal) \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ARCHIVESERIALIZER
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ARCHIVESERIALIZER
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS \
 private: \
 	static void StaticRegisterNativesAAkAcousticPortal(); \
 	friend struct Z_Construct_UClass_AAkAcousticPortal_Statics; \
 public: \
 	DECLARE_CLASS(AAkAcousticPortal, AVolume, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AkAudio"), NO_API) \
 	DECLARE_SERIALIZER(AAkAcousticPortal) \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ARCHIVESERIALIZER
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ARCHIVESERIALIZER
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_STANDARD_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAkAcousticPortal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAkAcousticPortal) \
@@ -163,7 +163,7 @@ public: \
 	NO_API virtual ~AAkAcousticPortal();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ENHANCED_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAkAcousticPortal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -177,27 +177,27 @@ public: \
 	NO_API virtual ~AAkAcousticPortal();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_138_PROLOG
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_GENERATED_BODY_LEGACY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_138_PROLOG
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_STANDARD_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ENHANCED_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_INCLASS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h_141_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AkAcousticPortal."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -205,7 +205,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AKAUDIO_API UClass* StaticClass<class AAkAcousticPortal>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h
+#define CURRENT_FILE_ID FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAcousticPortal_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

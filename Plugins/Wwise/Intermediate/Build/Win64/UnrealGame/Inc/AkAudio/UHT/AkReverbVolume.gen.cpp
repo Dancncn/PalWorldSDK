@@ -180,15 +180,15 @@ void EmptyLinkFunctionForGeneratedCodeAkReverbVolume() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAkReverbVolume);
 	AAkReverbVolume::~AAkReverbVolume() {}
 	IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(AAkReverbVolume)
-	struct Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics
+	struct Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AAkReverbVolume, AAkReverbVolume::StaticClass, TEXT("AAkReverbVolume"), &Z_Registration_Info_UClass_AAkReverbVolume, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAkReverbVolume), 3219913220U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_1955729224(TEXT("/Script/AkAudio"),
-		Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_1955729224(TEXT("/Script/AkAudio"),
+		Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkReverbVolume_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

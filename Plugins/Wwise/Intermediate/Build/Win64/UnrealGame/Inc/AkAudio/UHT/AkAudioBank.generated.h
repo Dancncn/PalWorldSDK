@@ -14,35 +14,35 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AKAUDIO_AkAudioBank_generated_h
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_SPARSE_DATA
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ACCESSORS
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ARCHIVESERIALIZER \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_SPARSE_DATA
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ACCESSORS
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ARCHIVESERIALIZER \
 	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UAkAudioBank, NO_API)
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS_NO_PURE_DECLS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkAudioBank(); \
 	friend struct Z_Construct_UClass_UAkAudioBank_Statics; \
 public: \
 	DECLARE_CLASS(UAkAudioBank, UAkAssetBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AkAudio"), NO_API) \
 	DECLARE_SERIALIZER(UAkAudioBank) \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ARCHIVESERIALIZER
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ARCHIVESERIALIZER
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS \
 private: \
 	static void StaticRegisterNativesUAkAudioBank(); \
 	friend struct Z_Construct_UClass_UAkAudioBank_Statics; \
 public: \
 	DECLARE_CLASS(UAkAudioBank, UAkAssetBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AkAudio"), NO_API) \
 	DECLARE_SERIALIZER(UAkAudioBank) \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ARCHIVESERIALIZER
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ARCHIVESERIALIZER
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_STANDARD_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkAudioBank(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAkAudioBank) \
@@ -56,7 +56,7 @@ public: \
 	NO_API virtual ~UAkAudioBank();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ENHANCED_CONSTRUCTORS \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAkAudioBank(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -70,27 +70,27 @@ public: \
 	NO_API virtual ~UAkAudioBank();
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_23_PROLOG
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_GENERATED_BODY_LEGACY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_23_PROLOG
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_STANDARD_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_GENERATED_BODY \
+#define FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_SPARSE_DATA \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ACCESSORS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS_NO_PURE_DECLS \
-	FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ENHANCED_CONSTRUCTORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_SPARSE_DATA \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ACCESSORS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_INCLASS_NO_PURE_DECLS \
+	FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -98,7 +98,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AKAUDIO_API UClass* StaticClass<class UAkAudioBank>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h
+#define CURRENT_FILE_ID FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkAudioBank_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

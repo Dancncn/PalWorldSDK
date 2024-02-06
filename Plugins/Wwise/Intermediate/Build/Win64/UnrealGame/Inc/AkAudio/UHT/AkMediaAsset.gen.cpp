@@ -461,18 +461,18 @@ void EmptyLinkFunctionForGeneratedCodeAkMediaAsset() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAkExternalMediaAsset);
 	UAkExternalMediaAsset::~UAkExternalMediaAsset() {}
 	IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(UAkExternalMediaAsset)
-	struct Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics
+	struct Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UAkMediaAssetData, UAkMediaAssetData::StaticClass, TEXT("UAkMediaAssetData"), &Z_Registration_Info_UClass_UAkMediaAssetData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAkMediaAssetData), 1545893783U) },
 		{ Z_Construct_UClass_UAkMediaAsset, UAkMediaAsset::StaticClass, TEXT("UAkMediaAsset"), &Z_Registration_Info_UClass_UAkMediaAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAkMediaAsset), 540534334U) },
 		{ Z_Construct_UClass_UAkLocalizedMediaAsset, UAkLocalizedMediaAsset::StaticClass, TEXT("UAkLocalizedMediaAsset"), &Z_Registration_Info_UClass_UAkLocalizedMediaAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAkLocalizedMediaAsset), 1157601621U) },
 		{ Z_Construct_UClass_UAkExternalMediaAsset, UAkExternalMediaAsset::StaticClass, TEXT("UAkExternalMediaAsset"), &Z_Registration_Info_UClass_UAkExternalMediaAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAkExternalMediaAsset), 2796547447U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_339740237(TEXT("/Script/AkAudio"),
-		Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_339740237(TEXT("/Script/AkAudio"),
+		Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkMediaAsset_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

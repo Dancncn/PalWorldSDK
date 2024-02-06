@@ -274,20 +274,20 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<FAkPluginInfo>()
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAkInitBank);
 	UAkInitBank::~UAkInitBank() {}
-	struct Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics
+	struct Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ScriptStructInfo[] = {
 		{ FAkPluginInfo::StaticStruct, Z_Construct_UScriptStruct_FAkPluginInfo_Statics::NewStructOps, TEXT("AkPluginInfo"), &Z_Registration_Info_UScriptStruct_AkPluginInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FAkPluginInfo), 3966609535U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UAkInitBankAssetData, UAkInitBankAssetData::StaticClass, TEXT("UAkInitBankAssetData"), &Z_Registration_Info_UClass_UAkInitBankAssetData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAkInitBankAssetData), 3104885602U) },
 		{ Z_Construct_UClass_UAkInitBank, UAkInitBank::StaticClass, TEXT("UAkInitBank"), &Z_Registration_Info_UClass_UAkInitBank, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAkInitBank), 1507698255U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_3617460241(TEXT("/Script/AkAudio"),
-		Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PWM_SDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_3617460241(TEXT("/Script/AkAudio"),
+		Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PalWorldSDK_Plugins_Wwise_Source_AkAudio_Classes_AkInitBank_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
